@@ -4,7 +4,7 @@
     margin: 0;
     font-family: sans-serif;
   }
-  @media (max-width: 767.99px) {
+  @media (max-width: 767.9px) {
 
     body {
         background-color: #d3d3d3;
@@ -19,6 +19,7 @@
     height: 15px;
     background-color: #272a31;
     font-size: 4px;
+    /* position: absolute; */
 }
 
 .fixed-nav img {
