@@ -112,15 +112,15 @@
   }
 
   .prog-sec {
-    display: grid;
-    grid-template-columns: 1fr 3fr 5fr;
-    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 3fr 5fr; */
+    gap: 8px;
     font-size: 15px;
     padding: 0 5px 0 5px;
     align-items: center;
     justify-content: center;
     text-align: left;
-    background-color: #344563;
   }
 
   .prog-sec h2 {
@@ -130,5 +130,18 @@
   .prog-sec p {
     font-size: 10px;
     color: #fff;
+  }
+
+  .prog-items {
+    display: grid;
+    grid-template-columns: 12% 24% 60%;
+    gap: 2%;
+    font-size: 15px;
+    width: 100%;
+    padding: 0 5px 0 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #344563;
   }
 }
