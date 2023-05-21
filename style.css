@@ -390,8 +390,8 @@
   .join {
     background-color: #ec5242;
     color: #fff;
-    width: 90%;
-    margin-left: 5%;
+    width: 70%;
+    margin-left: 15%;
     height: 68px;
   }
 
@@ -445,6 +445,15 @@
     color: #272a31;
     text-align: left;
     padding-top: 10px;
+  }
+
+  .more {
+    background-color: #fff;
+    color: #272a31;
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    margin-bottom: 30px;
   }
 
 }
