@@ -553,6 +553,7 @@
     flex-direction: column;
     text-align: center;
     color: #fff;
+    align-items: center;
   }
 
   .main-program h1 {
@@ -562,6 +563,12 @@
     line-height: 28px;
     letter-spacing: -0.04em;
     text-align: left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .main-program a {
+    display: none;
   }
 
   .prog-sec {
@@ -569,7 +576,7 @@
     flex-direction: column;
     gap: 8px;
     font-size: 15px;
-    padding: 0 5px 20px 5px;
+    padding: 20px 5px 20px 5px;
     align-items: center;
     justify-content: center;
     text-align: left;
