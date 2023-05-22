@@ -152,7 +152,7 @@
     display: flex;
     gap: 8px;
     font-size: 15px;
-    margin: 30px 390px 20px 72px;
+    margin: 30px 180px 80px 140px;
     align-items: center;
     justify-content: center;
     text-align: left;
@@ -174,17 +174,18 @@
   }
 
   .prog-items h2 {
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 25px;
     letter-spacing: -0.01em;
     text-align: left;
+    color: #ff5438;
   }
 
   .prog-items p {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 25px;
     letter-spacing: 0.06em;
     text-align: center;
   }
@@ -192,35 +193,39 @@
   
 
   .join {
-    background-color: #ec5242;
-    color: #fff;
-    width: 90%;
-    margin-left: 5%;
-    height: 68px;
+    display: none;
+  }
+
+  .main-program a {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 400;
   }
 
   .featured {
     background-color: #fff;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .featured h1 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     color: #272a31;
   }
 
   .featured-items {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 180px 80px 140px;
     gap: 10px;
   }
 
   .featured-speakers {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     gap: 15px;
   }
 
@@ -230,13 +235,13 @@
   }
 
   .featured-speakers ul h2 {
-    font-size: 15px;
+    font-size: 24px;
     font-weight: 700;
     color: #272a31;
   }
 
   .featured-speakers .p1 {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
     color: #ec5242;
     text-align: left;
@@ -244,11 +249,15 @@
   }
 
   .featured-speakers .p2 {
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 700;
     color: #272a31;
     text-align: left;
     padding-top: 10px;
+  }
+
+  .more {
+    display: none;
   }
 
   .about-page {
@@ -424,16 +433,15 @@
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #272a31;
+    background-color: #fff;
     width: 100%;
     padding: 27px;
   }
 
-  .footer .p1 {
-    font-size: 14px;
+  .footer p {
+    font-size: 10px;
     font-weight: 700;
     line-height: 14px;
-    color: #fff;
   }
 }
 
@@ -454,8 +462,6 @@
     height: 15px;
     background-color: #272a31;
     font-size: 4px;
-
-    /* position: absolute; */
   }
 
   .fixed-nav img {
