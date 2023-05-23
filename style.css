@@ -151,9 +151,9 @@
 
   .prog-sec {
     display: flex;
-    gap: 8px;
+    gap: 4px;
     font-size: 15px;
-    margin: 20px 3px 20px 70px;
+    margin: 20px 25px 20px 25px;
     align-items: center;
     justify-content: center;
     text-align: left;
@@ -171,7 +171,7 @@
     /* justify-content: center; */
     text-align: center;
     justify-items: center;
-    background-color: #344563;
+    background-color: #3b3e45;
     height: 231px;
     background-image: url(images/pattern_bg.png);
   }
@@ -202,6 +202,7 @@
   text-decoration: underline;
   font-size: 20px;
   font-weight: 400;
+  margin-top: 25px;
 }
 
 .featured {
@@ -389,16 +390,16 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #272a31;
+  background-color: #414246;
 }
 
 .partner h6 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 28px;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
+  color: #8f8f91;
 }
 
 .grid3 {
@@ -410,12 +411,12 @@
 
 .grid3 a {
   text-decoration: none;
-  color: #344563;
-  font-size: 21px;
-  font-weight: 1000;
+  color: #8f8f91;
+  font-size: 40px;
+  font-weight: 700;
 }
 
-.grid2 {
+/* .grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
@@ -424,22 +425,34 @@
 
 .grid2 a {
   text-decoration: none;
-  color: #344563;
+  color: #8F8F91;
   font-size: 21px;
   font-weight: 1000;
   padding-bottom: 25px;
-}
+} */
 
 .footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  grid-template-columns: 1fr 2fr;
   background-color: #fff;
   width: 100%;
+  gap: 20px;
   padding: 27px;
+  text-align: left;
 }
 
-.footer p {
-  font-size: 10px;
+.footer img {
+  width: 50%;
+}
+
+.foter-para {
+  display: grid;
+  display: grid;
+  gap: 15px;
+}
+
+.foter-para p {
+  font-size: 14px;
   font-weight: 700;
   line-height: 14px;
 }
@@ -616,7 +629,7 @@
   .prog-sec {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
     font-size: 15px;
     padding: 20px 5px 20px 5px;
     align-items: center;
@@ -650,7 +663,7 @@
     align-items: center;
     justify-content: center;
     text-align: left;
-    background-color: #344563;
+    background-color: #3b3e45;
   }
 
   .join {
