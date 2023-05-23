@@ -305,13 +305,15 @@
 
     /* height: 100vh; */
     flex-direction: column;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     background-color: #fff;
   }
 
   .about-page .first {
     width: 100%;
-
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
     /* height: 30vh; */
     display: flex;
     background-image: url(images/desktop-about-bg_img.jpg);
@@ -321,7 +323,7 @@
   }
 
   .about-page .head {
-    padding: 10px 10px 50px 10px;
+    padding: 10px;
     margin: 0 130px 0 130px;
   }
 
@@ -334,8 +336,8 @@
   }
 
   .about-page h2 {
-    font-size: 34px;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 900;
     text-align: center;
     color: #ec5242;
   }
@@ -352,13 +354,13 @@
     display: flex;
     background-color: #fff;
     flex-direction: column;
-    margin: 30px 90px 30px 90px;
+    margin: 30px 0 30px 0;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
     line-height: 25px;
     gap: 15px;
-    width: 75%;
+    /* width: 75%; */
   }
 
   .con {
@@ -399,6 +401,7 @@
   .about-page .about-logo {
     display: flex;
     flex-direction: column;
+    padding: 40px 0;
     align-items: center;
     text-align: center;
     background-color: #fff;
@@ -425,13 +428,13 @@
     font-weight: 700;
     line-height: 21px;
     padding: 20px 10px 20px 10px;
-    width: 75%;
-    margin: 0 90px 30px 20px;
   }
 
   .about-logo .aboutLogo {
-    width: 50%;
-    padding-bottom: 15px;
+    margin: 0 auto;
+    width: 400px;
+    padding: 50px 60px;
+    border: 3px solid #f7f7f7;
   }
 
   .prev-summit {
@@ -490,7 +493,7 @@
   .grid3 {
     display: flex;
     width: 100%;
-    gap: 90px;
+    gap: 30px;
     justify-content: space-between;
     padding-bottom: 25px;
   }
@@ -498,8 +501,8 @@
   .grid3 a {
     text-decoration: none;
     color: #8f8f91;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 900;
   }
 
   .grid2 {
@@ -552,10 +555,15 @@
     display: none;
   }
 
+  .about-footer {
+    width: 100%;
+    background-color: #2e2e2e;
+  }
+
   .footer2 {
     display: flex;
     grid-template-columns: 1fr 1fr;
-    background-color: #2e2e2e;
+    
     width: 100%;
     gap: 20px;
     padding: 27px;
