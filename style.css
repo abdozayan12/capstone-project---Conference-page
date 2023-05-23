@@ -97,10 +97,14 @@
   }
 
   .main-items h2 {
-    color: #ec5242;
+    color: transparent;
     font-size: 72px;
     font-weight: 1000;
     margin: 20px 3px 20px 70px;
+    -webkit-background-clip: text;
+
+    /* background-clip: border-box; */
+    background-image: url(images/orangebg.jpg);
   }
 
   .first-pragraph {
@@ -511,10 +515,10 @@
     font-weight: 700;
     line-height: 14px;
   }
-  
-.partner2 {
-  display: none;
-}
+
+  .partner2 {
+    display: none;
+  }
 
   .footer2 {
     display: flex;
