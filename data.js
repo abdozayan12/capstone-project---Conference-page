@@ -42,8 +42,6 @@ speakersData.forEach((speaker) => {
 
 speaker.innerHTML = output;
 
-
-
 const speakersData2 = [
 
   {
@@ -106,5 +104,3 @@ speakersData2.forEach((speaker2) => {
 });
 
 speaker2.innerHTML = output2;
-
-

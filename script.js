@@ -13,7 +13,6 @@ document.querySelectorAll('.nav-links').forEach((n) => n.addEventListener('click
   navMenu.classList.remove('active');
 }));
 
-
 const MoreSpeakers = document.querySelector('.featured-speakers2');
 const MoreBtn = document.querySelector('.more');
 
