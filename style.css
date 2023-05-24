@@ -50,7 +50,7 @@
 
   .nav-bar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     /* position: fixed; */
     height: 70px;
     width: 100%;
@@ -60,7 +60,9 @@
   }
 
   .nav-bar .logo {
-    display: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 30px;
   }
 
   .nav-bar ul {
