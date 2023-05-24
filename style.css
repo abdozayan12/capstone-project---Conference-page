@@ -123,6 +123,7 @@
 
   .nav-bar ul a:hover {
     color: orange;
+
     /* background-color: #291a18; */
     cursor: pointer;
     font-size: 20px;
@@ -254,6 +255,7 @@
     gap: 10px;
     font-size: 10px;
     width: 100%;
+
     /* padding: 20px 0 0 0; */
     align-items: center;
     text-align: center;
@@ -532,6 +534,7 @@
   .about-logo .aboutLogo {
     margin: 0 auto;
     width: 450px;
+
     /* padding: 50px 60px; */
     border: 3px solid #f7f7f7;
   }
@@ -746,7 +749,8 @@
     height: 50px;
     width: 100%;
     padding: 20px 0 20px 40px;
-    background-color: #fff;
+
+    /* background-color: #fff; */
     align-items: center;
     justify-content: start;
 
@@ -841,7 +845,7 @@
   }
 
   .main {
-    padding: 50px 0 0 0;
+    /* padding: 50px 0 0 0; */
   }
 
   .main-items {
@@ -851,7 +855,7 @@
 
   .main-items h1 {
     color: #ec5242;
-    padding-top: 50px;
+    padding-top: 110px;
     font-size: 20px;
     font-weight: 400;
   }
@@ -870,8 +874,9 @@
     border: #fff solid 3px;
     margin: 20px 0;
     padding: 0 15px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
+    color: #515151;
   }
 
   .first-pragraph p {
@@ -879,15 +884,16 @@
   }
 
   .main-items h3 {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 900;
-    padding-bottom: 15px;
+    padding: 15px 0;
   }
 
   .main-items h4 {
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 700;
     padding-bottom: 60px;
+    color: #868686;
   }
 
   .main-program {
@@ -906,7 +912,8 @@
     font-weight: 400;
     line-height: 28px;
     letter-spacing: -0.04em;
-    padding-bottom: 15px;
+
+    /* padding-bottom: 15px; */
     padding-top: 30px;
     text-align: center;
   }
@@ -978,7 +985,7 @@
 
   .featured {
     background-color: #fff;
-    margin-top: 20px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -987,12 +994,14 @@
   .featured h1 {
     font-size: 20px;
     font-weight: 400;
-    color: #272a31;
+    color: #000;
+    text-align: center;
+    padding: 30px 0;
   }
 
   .featured-items {
     display: grid;
-    gap: 10px;
+    gap: 25px;
   }
 
   .featured-speakers {
@@ -1004,7 +1013,7 @@
   .featured-speakers .grid {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 5px;
+    gap: 8px;
   }
 
   .featured-speakers ul {
@@ -1089,10 +1098,12 @@
   .more {
     background-color: #fff;
     color: #272a31;
-    width: 90%;
-    margin-left: 5%;
+    width: 96%;
+    margin-left: 2%;
     height: 50px;
     margin-bottom: 30px;
+    border-radius: 8px;
+    border: 1px solid #868686;
   }
 
   .more.active {
@@ -1104,19 +1115,15 @@
     width: 100%;
     height: 100vh;
     flex-direction: column;
-
-    /* margin-top: 50px; */
-    background-color: #fff;
   }
 
   .about-page .first {
-    margin-top: 60px;
     text-align: center;
     background-image: url(images/desktop-about-bg_img.jpg);
   }
 
   .about-page .head {
-    padding: 10px 10px 0 10px;
+    padding: 50px 10px 0 10px;
   }
 
   .head h1 {
@@ -1139,7 +1146,7 @@
   }
 
   .about-page .paragraph {
-    margin: 20px 10px 20px 10px;
+    margin: 32px 10px 25px 10px;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -1164,24 +1171,25 @@
 
   .con p {
     display: flex;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 700;
     align-items: center;
     text-align: center;
-    color: #344563;
+    color: #7a7a7a;
 
     /* margin: 10px 35px 0 35px; */
     line-height: 25px;
+    padding: 0 12px;
   }
 
   .con h3 {
     display: flex;
-    font-size: 14px;
-    font-weight: 900;
+    font-size: 12px;
+    font-weight: 800;
     align-items: center;
     text-align: center;
-    color: #344563;
-    margin: 0 30px 10px 30px;
+    color: #5f5f5f;
+    margin: 0 30px 25px 30px;
     line-height: 25px;
     letter-spacing: 0.02em;
     text-decoration-line: underline;
@@ -1199,14 +1207,15 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
-    padding: 20px 40px 0 40px;
+    padding: 25px 40px 0 40px;
   }
 
   .about-logo p {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
     line-height: 21px;
-    padding: 15px 10px 20px 10px;
+    padding: 15px 10px 35px 10px;
+    color: #838383;
   }
 
   .about-logo .p7 {
@@ -1215,7 +1224,7 @@
 
   .about-logo .aboutLogo {
     width: 100%;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
   }
 
   .prev-summit {
@@ -1232,7 +1241,7 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
-    padding-bottom: 10px;
+    color: #2c2c2c;
   }
 
   .prev-summit p {
@@ -1240,7 +1249,7 @@
     font-size: 12px;
     font-weight: 700;
     line-height: 21px;
-    color: #344563;
+    color: #838383;
     padding-bottom: 15px;
   }
 
@@ -1250,12 +1259,14 @@
   }
 
   .prev-summitImg2 {
-    /* display: none; */
+    display: flex;
     padding-bottom: 20px;
+    flex-direction: column;
+    gap: 15px;
   }
 
   .partner {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1334,6 +1345,7 @@
     display: flex;
     background-color: #fff;
     justify-content: space-around;
+    padding: 20px;
   }
 
   .footer2 {
