@@ -38,7 +38,7 @@
   } */
 
   .fixed-nav img {
-    width: 1%;
+    width: 100%;
   }
 
   .fixed-nav ul {
@@ -49,11 +49,16 @@
     list-style-type: none;
   }
 
+  .fixed-nav ul li {
+    justify-content: space-evenly;
+  }
+
   .main-program a {
     text-decoration: underline;
     font-size: 20px;
     font-weight: 400;
     margin-top: 25px;
+    color: #fff;
   }
 
   .grid3 a {
@@ -72,7 +77,8 @@
   }
 
   .fixed-nav ul a {
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 400;
     display: flex;
     padding: 0 15px 0 0;
     text-decoration: none;
@@ -105,6 +111,7 @@
   }
 
   .nav-bar ul a {
+    display: flex;
     padding: 10px;
     margin: 0 10px;
     color: #344563;
@@ -115,8 +122,8 @@
   }
 
   .nav-bar ul a:hover {
-    color: #ec5242;
-    background-color: #291a18;
+    color: orange;
+    /* background-color: #291a18; */
     cursor: pointer;
     font-size: 20px;
     transition: 0.5s ease-in-out;
@@ -129,9 +136,11 @@
   .nav-bar .CC {
     font-size: 16px;
     font-weight: 800;
+    width: 115px;
     color: #ec5242;
     background-color: #fff;
     border: 5px solid #ec5242;
+    height: 50px;
   }
 
   .nav-menu {
@@ -164,15 +173,15 @@
     font-weight: 400;
     color: #ec5242;
     padding-bottom: 20px;
-
-    /* margin: 20px 0 0 72px; */
+    padding-top: 100px;
   }
 
   .main-items h2 {
     color: transparent;
-    font-size: 72px;
-    font-weight: 1000;
-    margin: 0 287px 0 0;
+    font-size: 80px;
+    font-weight: 900;
+    padding-bottom: 40px;
+    margin: 0 202px 0 0;
     -webkit-background-clip: text;
 
     /* background-clip: border-box; */
@@ -188,6 +197,7 @@
 
   .first-pragraph p {
     padding: 15px;
+    color: #515151;
   }
 
   .main-items h3 {
@@ -195,14 +205,15 @@
     font-weight: 900;
     color: #595959;
     padding-bottom: 20px;
+    padding-top: 40px;
     margin: 0 287px 0 0;
   }
 
   .main-items h4 {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     color: #868686;
-    padding-bottom: 20px;
+    padding-bottom: 110px;
     margin: 0 287px 0 0;
   }
 
@@ -213,7 +224,7 @@
     text-align: center;
     color: #fff;
     align-items: center;
-    height: 505px;
+    height: 525px;
     background-image: url(images/pattern_bg.png);
   }
 
@@ -224,14 +235,14 @@
     line-height: 28px;
     letter-spacing: -0.04em;
     text-align: center;
-    padding: 50px 0 30px 0;
+    padding: 50px 0 0 0;
   }
 
   .prog-sec {
     display: flex;
     gap: 4px;
     font-size: 15px;
-    margin: 20px 25px 20px 25px;
+    margin: 20px 25px 40px 25px;
     align-items: center;
     justify-content: center;
     text-align: left;
@@ -243,14 +254,17 @@
     gap: 10px;
     font-size: 10px;
     width: 100%;
-    padding: 20px 0 0 0;
+    /* padding: 20px 0 0 0; */
     align-items: center;
-
-    /* justify-content: center; */
     text-align: center;
     justify-items: center;
     background-color: rgba(211, 211, 211, 0.12);
-    height: 231px;
+    height: 235px;
+    border: 2px solid transparent;
+  }
+
+  .prog-items:hover {
+    border: 2px solid #fff;
   }
 
   .prog-items h2 {
@@ -265,7 +279,7 @@
   .prog-items p {
     font-size: 12px;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 20px;
     letter-spacing: 0.06em;
     text-align: center;
   }
@@ -316,7 +330,7 @@
   }
 
   .about-page h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 900;
     text-align: center;
     color: #ec5242;
@@ -495,7 +509,7 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 28px;
-    padding: 50px 72px 20px 72px;
+    padding: 50px 72px 0 72px;
     color: #2c2c2c;
   }
 
@@ -511,13 +525,14 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 32px 35px 32px;
+    color: #838383;
   }
 
   .about-logo .aboutLogo {
     margin: 0 auto;
-    width: 400px;
-    padding: 50px 60px;
+    width: 450px;
+    /* padding: 50px 60px; */
     border: 3px solid #f7f7f7;
   }
 
@@ -532,11 +547,17 @@
     border-top: 1px solid #7a7a7a;
   }
 
+  .prev-summit .prev-summitImg2 {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    padding-bottom: 35px;
+  }
+
   .prev-summit h5 {
     font-size: 30px;
     font-weight: 700;
     line-height: 28px;
-    padding-bottom: 25px;
     padding-top: 50px;
   }
 
@@ -633,7 +654,7 @@
     grid-template-columns: 1fr 1fr;
     width: 100%;
     gap: 20px;
-    padding: 27px;
+    padding: 50px;
     text-align: left;
   }
 
