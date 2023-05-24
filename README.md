@@ -25,20 +25,21 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
+# 📖 Microver 1st capstone project <a name="about-project"></a>
 
-Portfolio-setup-and-mobile-first my second milestone at microverse
+**The Microverse 1st Capstone Project aims to showcase the skills and knowledge acquired during the Microverse program. The project involves building a web application using the technologies and concepts learned throughout the curriculum.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML 
 - CSS
+- java script
 ### Tech Stack <a name="tech-stack"></a>
 
 - package.json
 ### Key Features <a name="key-features"></a>
 
-Portfolio-setup-and-mobile-first
+Microver 1st capstone project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
