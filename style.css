@@ -436,10 +436,15 @@
   }
 
   .about-page h1 {
-    display: none;
+    display: block;
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+    color: #fff;
+  }
+
+  .about-page .firs-header {
+    display: none;
     color: #ec5242;
   }
 
@@ -824,6 +829,9 @@
     cursor: pointer;
     display: block;
     color: #272a31;
+    -webkit-background-clip: border-box;
+    background-image: url(images/desktop-about-bg_img.jpg);
+    color: transparent;
   }
 
   .bar {
@@ -1054,7 +1062,7 @@
   .about-page h2 {
     font-size: 28px;
     font-weight: 1000;
-    text-align: left;
+    text-align: center;
     color: #ec5242;
   }
 
