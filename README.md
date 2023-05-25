@@ -34,6 +34,7 @@
 - HTML 
 - CSS
 - java script
+
 ### Tech Stack <a name="tech-stack"></a>
 
 - package.json
@@ -63,7 +64,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-https://github.com/abdozayan12/Portfolio-setup-and-mobile-first
+https://github.com/abdozayan12/capstone-project---Conference-page
 
  ````
  cd Portfolio-setup-and-mobile-first
@@ -71,7 +72,7 @@ https://github.com/abdozayan12/Portfolio-setup-and-mobile-first
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 Abd elhakim
+👤 Abd elhakim Zayan
 
 - GitHub: [@GitHub](https://github.com/abdozayan12)
 - Twitter: [@Twitter](https://twitter.com/zayan_abdo)
@@ -79,13 +80,10 @@ https://github.com/abdozayan12/Portfolio-setup-and-mobile-first
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [add another part of the portfolio ] 
--  
-
+- [add more parts with more details ] 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,11 +91,9 @@ https://github.com/abdozayan12/Portfolio-setup-and-mobile-first
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/abdozayan12/Portfolio-setup-and-mobile-first/issues).
+Feel free to check the [issues page](https://github.com/abdozayan12/capstone-project---Conference-page/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
