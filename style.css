@@ -831,7 +831,8 @@
     color: #272a31;
     -webkit-background-clip: border-box;
     background-image: url(images/desktop-about-bg_img.jpg);
-    color: transparent;
+
+    /* color: transparent; */
   }
 
   .bar {
