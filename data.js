@@ -35,7 +35,7 @@ speakersData.forEach((speaker) => {
                 <p class="p1">${speaker.role}</p>
             </li>
             <li>
-            <img src="${speaker.line}" alt="underline">
+            <img src="${speaker.lIne}" alt="underline">
             </li>
             <li>
                 <p class="p2">${speaker.description}</p>
@@ -105,7 +105,7 @@ speakersData2.forEach((speaker2) => {
                 <p class="p1">${speaker2.role}</p>
             </li>
             <li>
-            <img src="${speaker2.line}" alt="underline">
+            <img src="${speaker2.lIne}" alt="underline">
             </li>
             <li>
                 <p class="p2">${speaker2.description}</p>
