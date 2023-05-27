@@ -105,7 +105,7 @@ speakersData2.forEach((speaker2) => {
                 <p class="p1">${speaker2.role}</p>
             </li>
             <li>
-            <img src="${speaker2.lIne}" alt="underline">
+            <img src="${speaker2.line}" alt="underline">
             </li>
             <li>
                 <p class="p2">${speaker2.description}</p>
