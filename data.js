@@ -35,7 +35,7 @@ speakersData.forEach((speaker) => {
                 <p class="p1">${speaker.role}</p>
             </li>
             <li>
-            <img src="${speaker.lIne}" alt="underline">
+            <img src="${speaker.line}" alt="underline">
             </li>
             <li>
                 <p class="p2">${speaker.description}</p>
